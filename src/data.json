@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "title": "iMac",
+    "thumbnail": "https://m.media-amazon.com/images/I/71gqlRrQCuL._AC_UF894,1000_QL80_.jpg"
+  },
+  {
+    "id": 2,
+    "title": "MacBook Pro",
+    "thumbnail": "https://www.jbhifi.com.au/cdn/shop/products/494989-Product-0-I-637406988736543466.jpg?v=1649907485"
+  },
+  {
+    "id": 3,
+    "title": "MacBook Air",
+    "thumbnail": "https://m.media-amazon.com/images/I/41n2+EPoAQL._AC_UF1000,1000_QL80_.jpg"
+  },
+  {
+    "id": 4,
+    "title": "MacBook Air Gold",
+    "thumbnail": "https://www.mega.pk/items_images/Apple+Macbook+12+MNYK2+Core+M3+Laptop+8GB+LPDDR3+256GB+SSD+Price+in+Pakistan%2C+Specifications%2C+Features_-_17250.webp"
+  }
+]
