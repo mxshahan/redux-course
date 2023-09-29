@@ -1,7 +1,14 @@
-import { createStore } from 'redux';
-import rootReducer from './reducers';
-import { composeWithDevTools } from 'redux-devtools-extension';
+import { configureStore } from "@reduxjs/toolkit";
+import cartReducer from "./slices/cart";
+import productReducer from "./slices/product";
 
-const store = createStore(rootReducer, composeWithDevTools());
+const store = configureStore({
+  reducer: {
+    cart: cartReducer,
+    products: productReducer
+  },
+  devTools: process.env.NODE_ENV !== 'production'
+})
+
 
 export default store;
